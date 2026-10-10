@@ -1,0 +1,180 @@
+{
+  "hash": "0x80f60fb2e3e12a3d876883436ae13884f6b2425958272cf780725ccb62fe491f",
+  "from_address": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "to_address": "0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[\"https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/exempt.json\",\"9e4cf814e3a9a8d4e3d33e1d8bd883e87825a005a7b43df401ad35614a1af071\",]\"method\":\"ingest_notice\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "agree",
+      "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100": "agree",
+      "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88": "idle",
+      "0xE6BD8050758CB15fC88387223E31Ae2708B119dC": "disagree",
+      "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67": "agree"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"ACTIVE\", \"exception_mode\": \"RANGES\", \"exceptions\": [[140, 149]], \"quote\": \"Northforge recalls its NF-20 workshop clamp. The recall is currently operative. Affected NF-20 numeric serial numbers are 100 through 199 inclusive, except serial numbers 140 through 149 inclusive\", \"spans\": [[100, 199]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/exempt.json\",\"9e4cf814e3a9a8d4e3d33e1d8bd883e87825a005a7b43df401ad35614a1af071\",]\"method\":\"ingest_notice\"}"
+        },
+        "eq_outputs": {
+          "0": {
+            "status": "return",
+            "payload": {
+              "readable": "{\"document\":{\"id\":\"N-A\"\"text\":\"Issued recall notice. Northforge recalls its NF-20 workshop clamp. The recall is currently operative. Affected NF-20 numeric serial numbers are 100 through 199 inclusive, except serial numbers 140 through 149 inclusive, which are explicitly exempt because their inserts were replaced at manufacture. These exceptions apply only to this notice. The safety team instructs distributors to isolate listed units. This synthetic notice is a software fixture, not an actual product recall.\"}\"quote\":\"Northforge recalls its NF-20 workshop clamp. The recall is currently operative. Affected NF-20 numeric serial numbers are 100 through 199 inclusive, except serial numbers 140 through 149 inclusive\"\"scope\":{\"decision\":\"ACTIVE\"\"exceptions\":[[140,149,],]\"spans\":[[100,199,],]}}"
+            }
+          }
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle",
+        "result": {
+          "status": "contract_error",
+          "payload": "idle"
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "disagree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"ACTIVE\", \"exception_mode\": \"RANGES\", \"exceptions\": [[140, 149]], \"quote\": \"Northforge recalls its NF-20 workshop clamp. The recall is currently operative. Affected NF-20 numeric serial numbers are 100 through 199 inclusive, except serial numbers 140 through 149 inclusive\", \"spans\": [[100, 199]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"ACTIVE\", \"exception_mode\": \"RANGES\", \"exceptions\": [[140, 149]], \"quote\": \"Northforge recalls its NF-20 workshop clamp. The recall is currently operative. Affected NF-20 numeric serial numbers are 100 through 199 inclusive, except serial numbers 140 through 149 inclusive, which are explicitly exempt because their inserts were replaced at manufacture.\", \"spans\": [[100, 199]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"ACTIVE\", \"exception_mode\": \"RANGES\", \"exceptions\": [[140, 149]], \"quote\": \"Northforge recalls its NF-20 workshop clamp. The recall is currently operative. Affected NF-20 numeric serial numbers are 100 through 199 inclusive, except serial numbers 140 through 149 inclusive, which are explicitly exempt because their inserts were replaced at manufacture.\", \"spans\": [[100, 199]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      }
+    ]
+  },
+  "gaslimit": 1,
+  "nonce": 1,
+  "created_at": "2026-10-10T10:46:24.318832+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9022901808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b901c427241a990000000000000000000000004de47c25a5216622f6d65a2f5d191c5ac5a475870000000000000000000000000d44c6b7f4f6dcca84691930caa0b03ac85dd52b0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e7f8e5b8e216046172677315940868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f68616d6d61646973696e61313938382d6a70672f726563616c6c2d726962626f6e2f303633386563336666643435333832363962656461396631613032386232623662626436663666392f6e6f74696365732f6578656d70742e6a736f6e840439653463663831346533613961386434653364333365316438626438383365383738323561303035613762343364663430316164333536313461316166303731066d6574686f646c696e676573745f6e6f7469636500000000000000000000000000000000000000000000000000008301e481a09244f535b16936cad066a0db31096c615be3ec723d277030645e35af908b0f72a011ff98a68baff80f8efe4d0918f6a1381df86b8e0dad47e55e0c740bdd93fe9f"
+  },
+  "value_credited": false,
+  "sender": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "recipient": "0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B",
+  "tx_id": "0x80f60fb2e3e12a3d876883436ae13884f6b2425958272cf780725ccb62fe491f",
+  "activator": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+  "last_leader": "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0xDB1c35c1f05d885999b8f13e5735307BcC16Be88",
+      "0xE6BD8050758CB15fC88387223E31Ae2708B119dC",
+      "0x3D83ab507785b95ca5C208bEc80CCe3D5ca98100",
+      "0xacc2459F341D7a887bcA8FAA62F1EC9378d4Bc67",
+      "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11"
+    ],
+    "validator_votes_hash": [
+      "0xe6dfd0b69b5090952f2940ba5350fb3e04a31825b0e2216b395191cf8c52b0ad",
+      "0x8a78f211e9e0f334b5fe2c699ddceec1f850544365de6b75303c1f124aca35de",
+      "0x0ca7b4457668027c9a848455e2bbb2f306988a35addf181312a9bd5cd52a9f5f",
+      "0xc3d112b80a6262c3d6d772ad2715191805316ec1dfd4be8ecec4e04cbdeaf61c",
+      "0xcc029456fbd01d8142da87b7d665eca89bd5a9bdcfc425bd15db4520c06d8d00"
+    ],
+    "validator_votes": [
+      5,
+      2,
+      1,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "IDLE",
+      "DISAGREE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

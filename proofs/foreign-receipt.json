@@ -1,0 +1,180 @@
+{
+  "hash": "0x3a114e4f0174f07020feabd67e31e1ff3db587be523b11c8b370d6693cbf6731",
+  "from_address": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "to_address": "0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[\"https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/foreign.json\",\"b71d9875c1cf48fe8095afa293d62217a6968b4af2079f9b4268f6b68b685bea\",]\"method\":\"ingest_notice\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47": "agree",
+      "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "agree",
+      "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "agree",
+      "0x90402341F0B0e97b23023c0a87de957FB7148E0F": "idle",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658": "disagree"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"IGNORE\", \"quote\": \"The notice explicitly does not recall the NF-20 model. This synthetic notice is a software fixture, not an actual product recall.\"}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/foreign.json\",\"b71d9875c1cf48fe8095afa293d62217a6968b4af2079f9b4268f6b68b685bea\",]\"method\":\"ingest_notice\"}"
+        },
+        "eq_outputs": {
+          "0": {
+            "status": "return",
+            "payload": {
+              "readable": "{\"document\":{\"id\":\"N-C\"\"text\":\"Issued recall notice. Northforge recalls the NF-30 workshop clamp, a different model from NF-20. The NF-30 recall is currently operative and covers numeric serials 1 through 999 inclusive with no exemptions. The notice explicitly does not recall the NF-20 model. This synthetic notice is a software fixture, not an actual product recall.\"}\"quote\":\"The notice explicitly does not recall the NF-20 model. This synthetic notice is a software fixture, not an actual product recall.\"\"scope\":{\"decision\":\"IGNORE\"\"exceptions\":[]\"spans\":[]}}"
+            }
+          }
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle",
+        "result": {
+          "status": "contract_error",
+          "payload": "idle"
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"IGNORE\", \"quote\": \"The notice explicitly does not recall the NF-20 model.\"}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "disagree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"IGNORE\", \"quote\": \"The notice explicitly does not recall the NF-20 model.\"}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"IGNORE\", \"quote\": \"The notice explicitly does not recall the NF-20 model.\"}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      }
+    ]
+  },
+  "gaslimit": 3,
+  "nonce": 3,
+  "created_at": "2026-10-10T10:49:35.721447+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9022903808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b901c427241a990000000000000000000000004de47c25a5216622f6d65a2f5d191c5ac5a475870000000000000000000000000d44c6b7f4f6dcca84691930caa0b03ac85dd52b0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e8f8e6b8e3160461726773159c0868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f68616d6d61646973696e61313938382d6a70672f726563616c6c2d726962626f6e2f303633386563336666643435333832363962656461396631613032386232623662626436663666392f6e6f74696365732f666f726569676e2e6a736f6e840462373164393837356331636634386665383039356166613239336436323231376136393638623461663230373966396234323638663662363862363835626561066d6574686f646c696e676573745f6e6f74696365000000000000000000000000000000000000000000000000008301e482a0ba6a0cc726b78c1cec3d5b07e5c87f0901c36fcb83c121afbe3fafcb8f18745fa077fbc6ebae4b36575e41912be0bbdc915cd2bbf45dd7aa6532b3402077d32ef4"
+  },
+  "value_credited": false,
+  "sender": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "recipient": "0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B",
+  "tx_id": "0x3a114e4f0174f07020feabd67e31e1ff3db587be523b11c8b370d6693cbf6731",
+  "activator": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+  "last_leader": "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x90402341F0B0e97b23023c0a87de957FB7148E0F",
+      "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC",
+      "0xec2Fb79cd12255Eb34886CEd7332f27B98DEe658",
+      "0x4EDbE1FC9EAeC7b0EBA849b0C76AE73Eb0ad5C47",
+      "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2"
+    ],
+    "validator_votes_hash": [
+      "0x3a45b3ed37b9b9378d416d361b3c323125f80c9d3ad3b471d7c126527ea8555b",
+      "0x123bda45f8a90f33739a75b4585a9343dccf825fbf81fde8edcb0306b94ca119",
+      "0x5de4222a1e874652ed2784e18647e939a68129b6f43966b36b9fca210f1feff8",
+      "0x3c94cc43682e269042aef7603877c8939e0596c60c0ee7bee4053f383de4895f",
+      "0x6305c53133511a73e93b1b2788ba7f0d222f5add5b1b770876e4326509bc83dd"
+    ],
+    "validator_votes": [
+      5,
+      1,
+      2,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "IDLE",
+      "AGREE",
+      "DISAGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

@@ -1,0 +1,217 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "contract_address": "0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B",
+  "source_sha256": "5491e88a3a72f65a56223f40a92d01847881307b1959471b598ec136e924cf70",
+  "fixture_revision": "0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9",
+  "transaction": {
+    "label": "foreign",
+    "action": "ingest_notice",
+    "hash": "0x3a114e4f0174f07020feabd67e31e1ff3db587be523b11c8b370d6693cbf6731"
+  },
+  "state": {
+    "manufacturer": "Northforge",
+    "model": "NF-20",
+    "notices": [
+      {
+        "document": {
+          "id": "N-A",
+          "text": "Issued recall notice. Northforge recalls its NF-20 workshop clamp. The recall is currently operative. Affected NF-20 numeric serial numbers are 100 through 199 inclusive, except serial numbers 140 through 149 inclusive, which are explicitly exempt because their inserts were replaced at manufacture. These exceptions apply only to this notice. The safety team instructs distributors to isolate listed units. This synthetic notice is a software fixture, not an actual product recall."
+        },
+        "quote": "Northforge recalls its NF-20 workshop clamp. The recall is currently operative. Affected NF-20 numeric serial numbers are 100 through 199 inclusive, except serial numbers 140 through 149 inclusive",
+        "scope": {
+          "decision": "ACTIVE",
+          "exceptions": [
+            [
+              140,
+              149
+            ]
+          ],
+          "spans": [
+            [
+              100,
+              199
+            ]
+          ]
+        },
+        "sha256": "9e4cf814e3a9a8d4e3d33e1d8bd883e87825a005a7b43df401ad35614a1af071",
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/exempt.json"
+      },
+      {
+        "document": {
+          "id": "N-B",
+          "text": "Issued recall notice. Northforge recalls its NF-20 workshop clamp. This independent recall is currently operative and covers numeric serial numbers 180 through 219 inclusive. No serials within this range are exempt. A separate fastener defect motivates this notice; exemptions in other notices do not apply here. This synthetic notice is a software fixture, not an actual product recall."
+        },
+        "quote": "currently operative and covers numeric serial numbers 180 through 219 inclusive. No serials within this range are exempt",
+        "scope": {
+          "decision": "ACTIVE",
+          "exceptions": [],
+          "spans": [
+            [
+              180,
+              219
+            ]
+          ]
+        },
+        "sha256": "e85be78c35732a0e1451f6678e460cd7ecf504c142e50dfe388d2f89c37b29dc",
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/overlap.json"
+      },
+      {
+        "document": {
+          "id": "N-C",
+          "text": "Issued recall notice. Northforge recalls the NF-30 workshop clamp, a different model from NF-20. The NF-30 recall is currently operative and covers numeric serials 1 through 999 inclusive with no exemptions. The notice explicitly does not recall the NF-20 model. This synthetic notice is a software fixture, not an actual product recall."
+        },
+        "quote": "The notice explicitly does not recall the NF-20 model. This synthetic notice is a software fixture, not an actual product recall.",
+        "scope": {
+          "decision": "IGNORE",
+          "exceptions": [],
+          "spans": []
+        },
+        "sha256": "b71d9875c1cf48fe8095afa293d62217a6968b4af2079f9b4268f6b68b685bea",
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/foreign.json"
+      }
+    ],
+    "publisher": "mohammadisina1988-jpg/recall-ribbon",
+    "segments": [
+      {
+        "end": 139,
+        "notices": [
+          "N-A"
+        ],
+        "start": 100
+      },
+      {
+        "end": 179,
+        "notices": [
+          "N-A"
+        ],
+        "start": 150
+      },
+      {
+        "end": 199,
+        "notices": [
+          "N-A",
+          "N-B"
+        ],
+        "start": 180
+      },
+      {
+        "end": 219,
+        "notices": [
+          "N-B"
+        ],
+        "start": 200
+      }
+    ]
+  },
+  "lots": [
+    {
+      "end": 109,
+      "known_affected": 10,
+      "segments": [
+        {
+          "end": 109,
+          "notices": [
+            "N-A"
+          ],
+          "start": 100
+        }
+      ],
+      "start": 90,
+      "status": "KNOWN_PARTIAL",
+      "total": 20,
+      "unresolved": []
+    },
+    {
+      "end": 149,
+      "known_affected": 0,
+      "segments": [],
+      "start": 140,
+      "status": "NO_LISTED_MATCH",
+      "total": 10,
+      "unresolved": []
+    },
+    {
+      "end": 185,
+      "known_affected": 11,
+      "segments": [
+        {
+          "end": 179,
+          "notices": [
+            "N-A"
+          ],
+          "start": 175
+        },
+        {
+          "end": 185,
+          "notices": [
+            "N-A",
+            "N-B"
+          ],
+          "start": 180
+        }
+      ],
+      "start": 175,
+      "status": "KNOWN_FULL",
+      "total": 11,
+      "unresolved": []
+    },
+    {
+      "end": 219,
+      "known_affected": 110,
+      "segments": [
+        {
+          "end": 139,
+          "notices": [
+            "N-A"
+          ],
+          "start": 100
+        },
+        {
+          "end": 179,
+          "notices": [
+            "N-A"
+          ],
+          "start": 150
+        },
+        {
+          "end": 199,
+          "notices": [
+            "N-A",
+            "N-B"
+          ],
+          "start": 180
+        },
+        {
+          "end": 219,
+          "notices": [
+            "N-B"
+          ],
+          "start": 200
+        }
+      ],
+      "start": 100,
+      "status": "KNOWN_PARTIAL",
+      "total": 120,
+      "unresolved": []
+    },
+    {
+      "end": 230,
+      "known_affected": 0,
+      "segments": [],
+      "start": 220,
+      "status": "NO_LISTED_MATCH",
+      "total": 11,
+      "unresolved": []
+    },
+    {
+      "end": 305,
+      "known_affected": 0,
+      "segments": [],
+      "start": 300,
+      "status": "NO_LISTED_MATCH",
+      "total": 6,
+      "unresolved": []
+    }
+  ]
+}

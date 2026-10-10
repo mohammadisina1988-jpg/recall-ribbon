@@ -1,0 +1,184 @@
+{
+  "hash": "0x40210193334cd4fd8107c114d3ffe984a02d16b3979bbbb874f95af5fd3e02f8",
+  "from_address": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "to_address": "0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[\"https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/overlap.json\",\"e85be78c35732a0e1451f6678e460cd7ecf504c142e50dfe388d2f89c37b29dc\",]\"method\":\"ingest_notice\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb": "agree",
+      "0x3E5ee2507cc167C9925Bf10c67D7986581112024": "agree",
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71": "idle",
+      "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC": "agree",
+      "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "idle"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"ACTIVE\", \"exception_mode\": \"NONE\", \"quote\": \"currently operative and covers numeric serial numbers 180 through 219 inclusive. No serials within this range are exempt\", \"spans\": [[180, 219]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/overlap.json\",\"e85be78c35732a0e1451f6678e460cd7ecf504c142e50dfe388d2f89c37b29dc\",]\"method\":\"ingest_notice\"}"
+        },
+        "eq_outputs": {
+          "0": {
+            "status": "return",
+            "payload": {
+              "readable": "{\"document\":{\"id\":\"N-B\"\"text\":\"Issued recall notice. Northforge recalls its NF-20 workshop clamp. This independent recall is currently operative and covers numeric serial numbers 180 through 219 inclusive. No serials within this range are exempt. A separate fastener defect motivates this notice; exemptions in other notices do not apply here. This synthetic notice is a software fixture, not an actual product recall.\"}\"quote\":\"currently operative and covers numeric serial numbers 180 through 219 inclusive. No serials within this range are exempt\"\"scope\":{\"decision\":\"ACTIVE\"\"exceptions\":[]\"spans\":[[180,219,],]}}"
+            }
+          }
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle",
+        "result": {
+          "status": "contract_error",
+          "payload": "idle"
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"ACTIVE\", \"exception_mode\": \"NONE\", \"quote\": \"Northforge recalls its NF-20 workshop clamp. This independent recall is currently operative and covers numeric serial numbers 180 through 219 inclusive. No serials within this range are exempt.\", \"spans\": [[180, 219]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"ACTIVE\", \"exception_mode\": \"NONE\", \"quote\": \"Northforge recalls its NF-20 workshop clamp. This independent recall is currently operative and covers numeric serial numbers 180 through 219 inclusive. No serials within this range are exempt.\", \"spans\": [[180, 219]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"ACTIVE\", \"exception_mode\": \"NONE\", \"quote\": \"This independent recall is currently operative and covers numeric serial numbers 180 through 219 inclusive.\", \"spans\": [[180, 219]]}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      }
+    ]
+  },
+  "gaslimit": 2,
+  "nonce": 2,
+  "created_at": "2026-10-10T10:48:05.221195+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9022902808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b901c427241a990000000000000000000000004de47c25a5216622f6d65a2f5d191c5ac5a475870000000000000000000000000d44c6b7f4f6dcca84691930caa0b03ac85dd52b0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000e8f8e6b8e3160461726773159c0868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f68616d6d61646973696e61313938382d6a70672f726563616c6c2d726962626f6e2f303633386563336666643435333832363962656461396631613032386232623662626436663666392f6e6f74696365732f6f7665726c61702e6a736f6e840465383562653738633335373332613065313435316636363738653436306364376563663530346331343265353064666533383864326638396333376232396463066d6574686f646c696e676573745f6e6f74696365000000000000000000000000000000000000000000000000008301e482a0f437d163c25075c9c9667dbaf78cb4b289f4f25c72b2290ac1633b78326a29ffa06bf58f45c39864c4829c85523893a1759c300ac29a077ac19f44811780bf7b80"
+  },
+  "value_credited": false,
+  "sender": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "recipient": "0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B",
+  "tx_id": "0x40210193334cd4fd8107c114d3ffe984a02d16b3979bbbb874f95af5fd3e02f8",
+  "activator": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+  "last_leader": "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x4404Fb70d490c935758146f42A73DC850FF95C71",
+      "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84",
+      "0x3E5ee2507cc167C9925Bf10c67D7986581112024",
+      "0x14402D49f317CE1a2F35BAE01b1804A2A9703dCb",
+      "0x4aba638Cf0Cf5249437AaD968fC69dde46ae6BAC"
+    ],
+    "validator_votes_hash": [
+      "0x02a487a222ec2dc4a66e542492bb40f667776f8d047583f0a07e70beaa7d6ca6",
+      "0x23a1db1b9702eba5fbe68e6661b4247fe4ac6fdcb6f12832588b35ac2197eafa",
+      "0x8c59f04c8c74d230f353f04f9e3353a3b3d6364e561a680ba51c840499d115ae",
+      "0xf78d74b3a9232ec512812540f536476a0ed2cdce9c84cdac5088807788181d0d",
+      "0xc88426dd75d8fbb09c0182949b6a8ff9715a22e37a70e97114e5804bce140266"
+    ],
+    "validator_votes": [
+      5,
+      5,
+      1,
+      1,
+      1
+    ],
+    "validator_votes_name": [
+      "IDLE",
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "AGREE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

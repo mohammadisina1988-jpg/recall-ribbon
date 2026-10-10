@@ -30,7 +30,9 @@ Pinned GenVM runner and Python tooling. `genvm-lint check contracts/recall_ribbo
 
 33 direct tests include a pointwise oracle checking 1,764 interval/exemption configurations. Direct tests explicitly replay validator callbacks but do not simulate network consensus. The StudioNet workflow uses real independent validators, byte-checks deployed source, records finalized execution receipts, and reads six inventory queries after each of four notice ingestions. `node scripts/verify-proofs.cjs` verifies downloaded proofs using a separate per-serial oracle.
 
-[Architecture](docs/architecture.md) · [Proofs](proofs/README.md) · [Submission draft](docs/submission.md).
+[Architecture](docs/architecture.md) · [Verified onchain proofs](proofs/README.md) · [Ready submission text](docs/submission.md).
+
+StudioNet contract: `0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B`. [Deployment](https://explorer-studio.genlayer.com/tx/0x5aebedf83f0d45062f43d5d8ef8bf56649657b128d82623185673652af2ba541). Four finalized MAJORITY_AGREE scenario receipts and 24 lot reads were independently verified.
 
 ## Repository design
 

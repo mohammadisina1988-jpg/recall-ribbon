@@ -1,0 +1,189 @@
+{
+  "hash": "0x5c7e200f1dd6b96ba3ba708334d8e3855b48b72263c4d79bef58c22908271616",
+  "from_address": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "to_address": "0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B",
+  "data": {
+    "calldata": {
+      "readable": "{\"args\":[\"https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/unresolved.json\",\"9f11e9a6dbda5d44bd0b83041c30717225b156ad1f040fe2717283c04b4578bb\",]\"method\":\"ingest_notice\"}"
+    }
+  },
+  "status": 7,
+  "result": 6,
+  "consensus_data": {
+    "votes": {
+      "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11": "idle",
+      "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2": "agree",
+      "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3": "agree",
+      "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84": "idle",
+      "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8": "agree"
+    },
+    "leader_receipt": [
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"UNKNOWN\", \"quote\": \"Affected numeric serials begin at 300, but the final serial number is illegible in the publication. No other sentence supplies the upper bound. The scope cannot be determined from this notice.\"}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "leader",
+        "vote": null,
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/unresolved.json\",\"9f11e9a6dbda5d44bd0b83041c30717225b156ad1f040fe2717283c04b4578bb\",]\"method\":\"ingest_notice\"}"
+        },
+        "eq_outputs": {
+          "0": {
+            "status": "return",
+            "payload": {
+              "readable": "{\"document\":{\"id\":\"N-D\"\"text\":\"Issued recall notice. Northforge recalls its NF-20 workshop clamp. This recall is currently operative. Affected numeric serials begin at 300, but the final serial number is illegible in the publication. No other sentence supplies the upper bound. The scope cannot be determined from this notice. This synthetic notice is a software fixture, not an actual product recall.\"}\"quote\":\"Affected numeric serials begin at 300, but the final serial number is illegible in the publication. No other sentence supplies the upper bound. The scope cannot be determined from this notice.\"\"scope\":{\"decision\":\"UNKNOWN\"\"exceptions\":[]\"spans\":[]}}"
+            }
+          }
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"UNKNOWN\", \"quote\": \"Affected numeric serials begin at 300, but the final serial number is illegible in the publication. No other sentence supplies the upper bound. The scope cannot be determined from this notice.\"}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree",
+        "calldata": {
+          "readable": "{\"args\":[\"https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/unresolved.json\",\"9f11e9a6dbda5d44bd0b83041c30717225b156ad1f040fe2717283c04b4578bb\",]\"method\":\"ingest_notice\"}"
+        },
+        "result": {
+          "status": "return",
+          "payload": {
+            "readable": "null"
+          }
+        }
+      }
+    ],
+    "validators": [
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"UNKNOWN\", \"quote\": \"Affected numeric serials begin at 300, but the final serial number is illegible in the publication. No other sentence supplies the upper bound. The scope cannot be determined from this notice.\"}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "SUCCESS",
+        "genvm_result": {
+          "stderr": "",
+          "stdout": "Scope candidate {\"decision\": \"UNKNOWN\", \"quote\": \"Affected numeric serials begin at 300, but the final serial number is illegible in the publication. No other sentence supplies the upper bound. The scope cannot be determined from this notice.\"}\n",
+          "raw_error": null,
+          "error_code": null,
+          "error_description": null
+        },
+        "mode": "validator",
+        "vote": "agree"
+      },
+      {
+        "execution_result": "ERROR",
+        "genvm_result": {
+          "stderr": "Validator execution cancelled after quorum",
+          "stdout": "",
+          "raw_error": {
+            "fatal": false,
+            "causes": [
+              "VALIDATOR_QUORUM_REACHED"
+            ]
+          },
+          "error_code": "CONSENSUS_VALIDATOR_QUORUM_REACHED"
+        },
+        "mode": "validator",
+        "vote": "idle"
+      }
+    ]
+  },
+  "gaslimit": 4,
+  "nonce": 4,
+  "created_at": "2026-10-10T10:51:06.237154+00:00",
+  "leader_only": false,
+  "execution_mode": "NORMAL",
+  "origin_address": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "triggered_on": null,
+  "appeal_validators_timeout": false,
+  "sim_config": {
+    "signed_rollup_transaction": "0xf9022904808307a12094b7278a61aa25c888815afc32ad3cc52ff24fe57580b901c427241a990000000000000000000000004de47c25a5216622f6d65a2f5d191c5ac5a475870000000000000000000000000d44c6b7f4f6dcca84691930caa0b03ac85dd52b0000000000000000000000000000000000000000000000000000000000000005000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000ebf8e9b8e616046172677315b40868747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6d6f68616d6d61646973696e61313938382d6a70672f726563616c6c2d726962626f6e2f303633386563336666643435333832363962656461396631613032386232623662626436663666392f6e6f74696365732f756e7265736f6c7665642e6a736f6e840439663131653961366462646135643434626430623833303431633330373137323235623135366164316630343066653237313732383363303462343537386262066d6574686f646c696e676573745f6e6f74696365000000000000000000000000000000000000000000008301e482a07cb86431ed40846916efd41e3f1977ac896e243f733580aa5a8ff74d55310edca07a51606bf0728d579fdb439997e686f6ca6015071392fad291e0e7f1adb36f0a"
+  },
+  "value_credited": false,
+  "sender": "0x4DE47c25a5216622F6d65A2F5D191C5aC5A47587",
+  "recipient": "0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B",
+  "tx_id": "0x5c7e200f1dd6b96ba3ba708334d8e3855b48b72263c4d79bef58c22908271616",
+  "activator": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+  "last_leader": "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+  "result_name": "MAJORITY_AGREE",
+  "num_of_rounds": "1",
+  "last_round": {
+    "round": "0",
+    "leader_index": "0",
+    "votes_committed": "5",
+    "votes_revealed": "5",
+    "appeal_bond": "0",
+    "rotations_left": "3",
+    "result": 6,
+    "round_validators": [
+      "0x6737ca1d6BDF8b7C4f19143E2D55581Ca64eb7C3",
+      "0x03D58A4DeF6fDFc032A56374785a5F571D07Bc11",
+      "0x5310dcF075E0BD47d29B8ec6581F736C767f54D2",
+      "0xcE1d6bBB36B744536153966B4DD42276f5ADd0F8",
+      "0x772ffCd1dF6Cc566eC4b8d3f4F4f8eBbb6B36C84"
+    ],
+    "validator_votes_hash": [
+      "0x0279ccede4551192895f4e9ce79f5153bd83ce9a595c6600d2e6a2b7528ab878",
+      "0x95a5cfb67bf9a406763b2dd6fda4745945d3ed8458b71640165fe8f9059685f0",
+      "0xa612dd132c9e40631acece300ae5524557343a1202f04f0f6d0884f2ed1e98d8",
+      "0x090e2d25f4882ef2ccfa36c2a2d8fe13fc37e04c1b0373cd068b1af7f0ad2c04",
+      "0x006b91ef6a1524016b4534146d6b8af7cab19297e3bc0dedf4a1b5fb2b47184a"
+    ],
+    "validator_votes": [
+      1,
+      5,
+      1,
+      1,
+      5
+    ],
+    "validator_votes_name": [
+      "AGREE",
+      "IDLE",
+      "AGREE",
+      "AGREE",
+      "IDLE"
+    ]
+  },
+  "type": 2,
+  "status_name": "FINALIZED"
+}

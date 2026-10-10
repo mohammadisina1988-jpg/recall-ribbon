@@ -1,0 +1,146 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "contract_address": "0x0d44C6b7f4f6DcCA84691930caA0b03ac85dD52B",
+  "source_sha256": "5491e88a3a72f65a56223f40a92d01847881307b1959471b598ec136e924cf70",
+  "fixture_revision": "0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9",
+  "transaction": {
+    "label": "exempt",
+    "action": "ingest_notice",
+    "hash": "0x80f60fb2e3e12a3d876883436ae13884f6b2425958272cf780725ccb62fe491f"
+  },
+  "state": {
+    "manufacturer": "Northforge",
+    "model": "NF-20",
+    "notices": [
+      {
+        "document": {
+          "id": "N-A",
+          "text": "Issued recall notice. Northforge recalls its NF-20 workshop clamp. The recall is currently operative. Affected NF-20 numeric serial numbers are 100 through 199 inclusive, except serial numbers 140 through 149 inclusive, which are explicitly exempt because their inserts were replaced at manufacture. These exceptions apply only to this notice. The safety team instructs distributors to isolate listed units. This synthetic notice is a software fixture, not an actual product recall."
+        },
+        "quote": "Northforge recalls its NF-20 workshop clamp. The recall is currently operative. Affected NF-20 numeric serial numbers are 100 through 199 inclusive, except serial numbers 140 through 149 inclusive",
+        "scope": {
+          "decision": "ACTIVE",
+          "exceptions": [
+            [
+              140,
+              149
+            ]
+          ],
+          "spans": [
+            [
+              100,
+              199
+            ]
+          ]
+        },
+        "sha256": "9e4cf814e3a9a8d4e3d33e1d8bd883e87825a005a7b43df401ad35614a1af071",
+        "url": "https://raw.githubusercontent.com/mohammadisina1988-jpg/recall-ribbon/0638ec3ffd4538269beda9f1a028b2b6bbd6f6f9/notices/exempt.json"
+      }
+    ],
+    "publisher": "mohammadisina1988-jpg/recall-ribbon",
+    "segments": [
+      {
+        "end": 139,
+        "notices": [
+          "N-A"
+        ],
+        "start": 100
+      },
+      {
+        "end": 199,
+        "notices": [
+          "N-A"
+        ],
+        "start": 150
+      }
+    ]
+  },
+  "lots": [
+    {
+      "end": 109,
+      "known_affected": 10,
+      "segments": [
+        {
+          "end": 109,
+          "notices": [
+            "N-A"
+          ],
+          "start": 100
+        }
+      ],
+      "start": 90,
+      "status": "KNOWN_PARTIAL",
+      "total": 20,
+      "unresolved": []
+    },
+    {
+      "end": 149,
+      "known_affected": 0,
+      "segments": [],
+      "start": 140,
+      "status": "NO_LISTED_MATCH",
+      "total": 10,
+      "unresolved": []
+    },
+    {
+      "end": 185,
+      "known_affected": 11,
+      "segments": [
+        {
+          "end": 185,
+          "notices": [
+            "N-A"
+          ],
+          "start": 175
+        }
+      ],
+      "start": 175,
+      "status": "KNOWN_FULL",
+      "total": 11,
+      "unresolved": []
+    },
+    {
+      "end": 219,
+      "known_affected": 90,
+      "segments": [
+        {
+          "end": 139,
+          "notices": [
+            "N-A"
+          ],
+          "start": 100
+        },
+        {
+          "end": 199,
+          "notices": [
+            "N-A"
+          ],
+          "start": 150
+        }
+      ],
+      "start": 100,
+      "status": "KNOWN_PARTIAL",
+      "total": 120,
+      "unresolved": []
+    },
+    {
+      "end": 230,
+      "known_affected": 0,
+      "segments": [],
+      "start": 220,
+      "status": "NO_LISTED_MATCH",
+      "total": 11,
+      "unresolved": []
+    },
+    {
+      "end": 305,
+      "known_affected": 0,
+      "segments": [],
+      "start": 300,
+      "status": "NO_LISTED_MATCH",
+      "total": 6,
+      "unresolved": []
+    }
+  ]
+}
