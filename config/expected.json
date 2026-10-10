@@ -1,0 +1,6 @@
+{
+  "exempt":{"decision":"ACTIVE","spans":[[100,199]],"exceptions":[[140,149]]},
+  "overlap":{"decision":"ACTIVE","spans":[[180,219]],"exceptions":[]},
+  "foreign":{"decision":"IGNORE","spans":[],"exceptions":[]},
+  "unresolved":{"decision":"UNKNOWN","spans":[],"exceptions":[]}
+}
